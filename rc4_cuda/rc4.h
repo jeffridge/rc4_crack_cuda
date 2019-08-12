@@ -6,7 +6,7 @@
 #include <string.h>
 #include <time.h>
 #include <math.h>
-#include <Windows.h>
+//#include <Windows.h>
 
 //21-7E,totally 94 characters
 #define START_CHARACTER 0x21
@@ -16,7 +16,7 @@
 #define BLOCK_NUM 2
 #define MAX_THREAD_NUM 256
 
-//¿Õ¼äÆäÊµÖ»Òª10¸ö¾Í×ã¹»ÁË£¬È¡20µÄÔ­ÒòÖ÷ÒªÊÇÎªÁË±ÜÃâbank conflicts
+//ç©ºé—´å…¶å®åªè¦10ä¸ªå°±è¶³å¤Ÿäº†ï¼Œå–20çš„åŸå› ä¸»è¦æ˜¯ä¸ºäº†é¿å…bank conflicts
 #define MEMEORY_PER_THREAD 20
 #define MAX_KEY_LENGTH 10 //max key length
 #define STATE_LEN	256
